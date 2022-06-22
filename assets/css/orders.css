@@ -1,0 +1,157 @@
+/** @format */
+
+* {
+  margin:0px;
+  padding: 0px;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3a4750;
+}
+.nav {
+  display: inline-block;
+  margin: 25px 50px 25px 0;
+  color: white;
+}
+.navbar h1 {
+  color: #ff8d29;
+  margin: 25px 40px 25px 50px;
+  font-size: 30px;
+}
+.nav button {
+  padding: 10px 30px 10px 30px;
+  background-color: #f6c90e;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 40px;
+}
+.nav button:hover {
+  background-color: black;
+}
+.nav > a {
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 40px;
+}
+.nav a:hover {
+  color: #f6c90e;
+}
+.nav > button > a {
+  color: black;
+}
+.nav > button > a:hover {
+  color: #f6c90e;
+}
+
+.footer{
+    margin: 100px 50px 40px 50px ;
+    background-color: #3A4750;
+}
+.footer h3{
+    padding: 15px 0 15px 30px;
+    color: white;
+}
+.footer h3 span{
+    color: #FF8D29;
+}
+.iconfooter{
+    color: #FF8D29;
+    font-size: 30px;
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footer hr{
+    border: none;
+    border: 1px solid black;
+}
+.footer ul {
+    display: flex;
+    color: white;
+    gap: 80px;
+    justify-content: center;
+    padding: 20px 0 15px 0;
+}
+.footer p{
+    color: white;
+    padding: 20px 0 15px 0;
+    text-align: center;
+}
+#orders{
+  margin: 20px 50px 0 50px;
+}
+#orders h2{
+  font-size: 30px;
+  margin: 10px;
+  color: #ff8d29;
+}
+.designs{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  gap: 30px;
+}
+.designs img{
+  width: 100%;
+  border-radius: 15px;
+  height: 60%;
+}
+.purchase{
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+  background-color: #f6c90e;
+  margin: 10px 0 0 90px;
+}
+.designs p{
+  text-align: center;
+  padding: 5px;
+}
+.designs h3{
+  padding: 10px;
+  text-align: center;
+}
+.materials{
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+  width: 100%;
+  gap: 30px;
+}
+.materials img{
+  width: 100%;
+  border-radius: 15px;
+  height: 60%;
+}
+.materials h3{
+  text-align: center;
+  padding: 10px;
+}
+.materials p{
+  text-align: center;
+  padding: 5px;
+}
+.machinery{
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+  width: 100%;
+  gap: 30px;
+}
+.machinery img{
+  width: 100%;
+  border-radius: 15px;
+  height: 60%;
+}
+.machinery h3{
+  text-align: center;
+  padding: 10px;
+}
+.machinery p{
+  text-align: center;
+  padding: 5px;
+}
+
