@@ -24,5 +24,22 @@ fetch(
   options
 )
   .then((response) => response.json())
-  .then((response) => console.log(response))
-  .catch((err) => console.error(err));
+    .then( ( response ) =>{
+        console.log( response );
+        // carGener(response)
+  })
+    .catch( ( err ) => console.error( err ) );
+let cars = data.message;
+cars.array.forEach( cars =>
+{
+    loadImagesTodom(cars)
+    
+} );
+function loadImagesTodom ( cars )
+{
+    let carCount = document.getElementById( 'fetched' );
+    let car = document.createComment( 'car' );
+    car.src = car;
+    carCount.appendChild("p" );
+}
+    
