@@ -24,22 +24,24 @@ fetch(
   options
 )
   .then((response) => response.json())
-    .then( ( response ) =>{
-        console.log( response );
-        // carGener(response)
+    .then( ( data ) =>{
+        console.log( data );
+        let car = data.message;
+        data.forEach( ( data) =>
+        {
+            console.log(data);
+        });
+        
   })
-    .catch( ( err ) => console.error( err ) );
-let cars = data.message;
-cars.array.forEach( cars =>
-{
-    loadImagesTodom(cars)
+    .catch( ( data ) => console.error( data ) );
     
-} );
-function loadImagesTodom ( cars )
+
+function loadImagesTodom ( car )
 {
+    console.log(data);
     let carCount = document.getElementById( 'fetched' );
-    let car = document.createComment( 'car' );
-    car.src = car;
-    carCount.appendChild("p" );
+    let data = document.createComment( 'data' );
+    car.src = data;
+     carCount.appendChild("p" );
 }
     
