@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CarFacts</title>
     <link rel="stylesheet" href="assets/css/home.css">
+     <link rel="stylesheet" href="./assets/css/services.css">
     
     <link href="https://fonts.googleapis.com/css?family=Great+vibes" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://www.google.com/search?q=icons+font+awesome&oq=icons&aqs=chrome.4.69i57j0i512l2j46i175i199i512j0i512j69i60j69i61l2.5590j0j7&sourceid=chrome&ie=UTF-8">
@@ -17,7 +18,7 @@
             <h1>CarFacts</h1>
             <div class="nav">
                 <a href="home.html">HOME</a></li>
-                <a href="vehicles.html">VEHICLES</a></li>
+                <a href="#vehicless">VEHICLES</a></li>
                 <a href="#footer">CONTACT US</a></li>
                 
             </div>
@@ -30,6 +31,7 @@
             <div class="banner">
             
                 <h2 class="heading">Get your facts here!</h2>
+                <button onclick="button1()" id="fbtn">Why are you here??</button>
 
                 <p>CarFacts is here to make you understand more about cars.Several car brands are 
 described.</p><br>
@@ -53,10 +55,90 @@ Fasten your seatbelts and check out more interesting car facts. Save these fun f
         <div class="more">
             <h2>More About Cars <span style="color:burlywood;"></span></h2>
             <p></p>A car is a wheeled motor vehicle used for transportation. Most definitions of cars say that they run primarily on roads, seat one to eight people, have four wheels, and mainly transport people rather than goods. Cars came into global use during the 20th century, and developed economies depend on them. <br>  <br></p>
-            <button> <a href="./vehicles.html" target="_self">More on sample cars and their origin </a></button>
+            <button> <a href="#vehicless" target="_self">More on sample cars and their origin </a></button>
         </div>
     </div>
     <!--about us section ends here-->
+     <section class="allimages" id="vehicless">
+         <a href="https://www.goodwood.com/grr/road/news/2021/2/the-nine-best-japanese-cars-that-arent-the-gr-yaris/"> <h2 class="space">Japanese Cars</h2></a>
+       
+
+        <div class="ourdesigns">
+            
+            <img src="./assets/images/v8.jpg">
+            
+            <img src="./assets/images/pajero.jpg">
+            <img src="./assets/images/forester.jpg">
+            <img src="./assets/images/cx9.jpg">
+        </div>
+    </section>
+    <section class="british">
+         <a href="https://www.theaa.com/car-buying/cars-made-in-britain"><h2 class="move">British Cars</h2></a>
+
+        <div class="materials">
+        
+            <div class="machines">
+
+                <img src="./assets/images/range.jpg">
+                <h3>Range Rover</h3>
+            
+            </div>
+
+            <div class="machines">
+
+                <img src="./assets/images/dbx.jpg">
+                <h3>Aston Martin DBX</h3>
+
+            </div>
+
+            <div class="machines">
+
+                <img src="./assets/images/rover.jpg">
+                <h3>landrover Defender</h3>
+
+            </div>
+
+            <div class="machines">
+                <img src="./assets/images/royce.jpg">
+                <h3>Rolls royce </h3>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="america">
+        <a href="https://www.cars.com/american-made-index"> <h2 class="move">American Cars</h2></a>
+       
+        <div class="machinery">
+        
+            <div class="bigcars" id="range">
+
+                <img src="./assets/images/ford.jpg">
+                <h3>Ford ranger</h3>
+            
+            </div>
+
+            <div class="bigcars">
+
+                <img src="./assets/images/srt.jpeg">
+                <h3>Dodge SRT</h3>
+
+            </div>
+
+            <div class="bigcars">
+
+                <img src="./assets/images/cadillac.jpg">
+                <h3>Cadillac escalade</h3>
+
+            </div> 
+
+            <div class="bigcars">
+                <img src="./assets/images/camaro.jpg">
+                <h3>Camaro</h3>
+            </div>
+
+        </div>  
+    </section>
 
 
     <!--footer section begins here-->
@@ -79,5 +161,6 @@ Fasten your seatbelts and check out more interesting car facts. Save these fun f
         <h4>@2022, CarFacts. All Rights Served.</h4>
     </section>
     <!--footer section ends here-->   
+    <script src="./cars.js"></script>
 </body>
 </html>
