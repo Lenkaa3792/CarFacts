@@ -40,8 +40,8 @@ function loadImagesTodom ( car )
 {
     console.log(data);
     let carCount = document.getElementById( 'fetched' );
-    let data = document.createComment( 'data' );
-    car.src = data;
-     carCount.appendChild("p" );
+    let data = document.createElement( 'li' );
+    data.innerHTML = data.model;
+     data.Count.appendChild(corolla);
 }
     
