@@ -6,6 +6,11 @@ function button1() {
   alert("I am here to know about cars");
 }
 
+function myLoad ()
+{
+  alert('page fully loaded!!')
+}
+
 const options = {
   method: "GET",
   headers: {
