@@ -6,10 +6,10 @@ function button1() {
   alert("I am here to know about cars");
 }
 
-function myLoad ()
-{
-  alert('page fully loaded!!')
-}
+// function myLoad ()
+// {
+//   alert('page fully loaded!!')
+// }
 
 const options = {
   method: "GET",
@@ -35,7 +35,7 @@ let vehicles = async () =>
       
     cars.map( ( car ) =>
     {
-        let row = `<li>model: ${ car.make } make: ${ car.model }</li>`;
+        let row = `<ol><li>model: ${ car.make } make: ${ car.model }</li></ol>`;
         dataCount.innerHTML+=row
       console.log(car.model);
     });
