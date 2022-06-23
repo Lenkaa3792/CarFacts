@@ -6,10 +6,10 @@ function button1() {
   alert("I am here to know about cars");
 }
 
-// function myLoad ()
-// {
-//   alert('page fully loaded!!')
-// }
+function myLoad ()
+{
+  alert('page fully loaded!!')
+}
 
 const options = {
   method: "GET",
@@ -19,7 +19,6 @@ const options = {
   },
 };
 
-
 let vehicles = async () =>
 {
     let response = await fetch(
@@ -28,14 +27,12 @@ let vehicles = async () =>
     );
     let cars = await response.json()
     console.log( cars );
-    
-  
 
     let dataCount = document.getElementById( "fetched" );
       
     cars.map( ( car ) =>
     {
-        let row = `<ol><li>model: ${ car.make } make: ${ car.model }</li></ol>`;
+        let row = `<li> ${ car.make } make: ${ car.model }</li>`;
         dataCount.innerHTML+=row
       console.log(car.model);
     });
