@@ -24,7 +24,7 @@ As a user of the application,you will be able to :
  ### Installation Process
 
  **
-* Clone to thir repo : git clone https://github.com/Lenkaa3792/CarFacts-project
+* Clone to this repo : git clone https://github.com/Lenkaa3792/CarFacts-project
 
 * Unzip the downloaded files in a folder of choice.
 

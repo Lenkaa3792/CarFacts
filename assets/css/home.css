@@ -7,6 +7,11 @@
 .heading{
   margin-bottom: auto;
 }
+.content{
+  display: flex;
+  text-align: center;
+ 
+}
 .fact{
   text-align: center;
 }
@@ -26,7 +31,7 @@
   margin: 25px 40px 25px 50px;
   font-size: 30px;
 }
-.nav button {
+button {
   padding: 10px 30px 10px 30px;
   background-color: #f6c90e;
   border: none;
