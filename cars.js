@@ -32,9 +32,9 @@ let vehicles = async () =>
       
     cars.map( ( car ) =>
     {
-        let row = `<li> ${ car.make } make: ${ car.model }</li>`;
+        let row = `<li> ${ car.make }: ${ car.model }</li>`;
         dataCount.innerHTML+=row
-      console.log(car.model);
+      //console.log(car.model);
     });
    
 }
