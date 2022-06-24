@@ -11,6 +11,8 @@ function myLoad ()
   alert('page fully loaded!!')
 }
 
+
+
 const options = {
   method: "GET",
   headers: {
