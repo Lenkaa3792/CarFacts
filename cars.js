@@ -10,7 +10,12 @@ function myLoad ()
 {
   alert('page fully loaded!!')
 }
-
+function mySearch ()
+{
+  var y = document.getElementById( 'input' );
+  document.getElementById( 'for' ).innerHTML = 'You are searching for:' + y.value;
+}
+mySearch()
 
 
 const options = {
